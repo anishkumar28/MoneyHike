@@ -1,5 +1,5 @@
 *{
-    color: #f4eade;
+    color: #f5ede2;
     margin: 0px;
     padding: 0px;
 }
@@ -65,12 +65,10 @@
 .subtitle{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ff9f38;
-    height: 30px;
-    font-size: large;
+    font-size:larger;
     font-weight: 700;
-    margin: 20px 10px 20px 10px;
+    padding: 7px 30px 7px 30px;
     text-align: center;
-    align-items: center;
     
 }
 
@@ -96,6 +94,7 @@
     padding:  8px 20px 8px 20px;
     align-items: center;
     margin: 10px;
+    margin-left: 0px;
 }
 
 .readmore-button{
@@ -200,6 +199,76 @@
 }
 
 .service-description{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.features-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.features-intro{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    align-items: center;
+}
+
+.feature-text{
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px 60px 60px 40px;
+}
+
+.feature-category{
+    display: flex;
+    flex-direction: row;
+}
+
+.features-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 4px solid black;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.feature-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle-image{
+    margin: 70px;
+}
+
+.feature-name{
+    color: black;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    padding:  2px 30px 2px 30px;
+    align-items: center;
+}
+
+
+
+.feature-description{
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
